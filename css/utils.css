@@ -1,0 +1,18 @@
+.text-center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lines p
+{
+    text-align:center;
+}
+footer.h3{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-flow: column;
+}
+.heading{
+    padding: 7px 8px; 
+}

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family:aerial,"Open Sans", sans-serif;
+}
+
+nav{
+    height: 8vh;
+    display: flex;
+    /* background-color:#2a55e5; */
+    color: white;
+    justify-content:start;
+    align-items: center;
+}
+.logo
+{
+    width: 60%;
+    display: flex;
+    margin-left: 5%;
+    justify-content:start;
+    align-items: center;
+
+}
+
+.logo img
+{
+    background-color: white;
+    width: 163px;
+}
+
+.search
+{
+    width:70%;
+    height: 35px;
+    /* padding-top:20px; */
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    margin-left: 12%;
+    position:relative;
+    border-radius: 15px;
+    left: 0%;
+}
+.search_btn
+{
+    position: absolute;
+    top:24%;
+    margin-left: 1%;
+    align-content: center;
+    align-items:center;
+    background-color: white;
+    border-style: none;
+}
+.search input
+{
+    position: absolute;
+    right: 2%;
+    left: 0%;
+    width:auto;
+    height: inherit;
+    margin-left: 40px;
+    padding-left: 2px;
+    outline-style: none;
+    border-style: none;
+    box-shadow: none;
+}
+nav ul
+{
+
+    margin-left:11%;
+}
+nav li 
+{
+    display: inline;
+    list-style-type: none;
+    /* padding: 0px 20px; */
+    /* padding-right: 5px; */
+}
+nav li a
+{
+    text-decoration: none;
+    color: black;   
+    padding-right: 60px;
+}
+nav li a:hover
+{
+    color: rgba(45, 18, 220, 0.863);   
+    font-size: large;
+    /* font-weight: 800; */
+}
+.container
+{
+    min-height:calc(100vh - 8vh - 8vh) ;
+    /* background-color: #c0acac40; */
+    background-color:white;
+    padding-top: 30px;
+}
+.slider
+{
+    max-width: 60vw;
+    margin: auto;
+    position: relative;
+    min-height:50vh;
+    /* background-color: #f5f0eac4; */
+    background-color: #d9d8d6a1;
+    /* background-color: #ffffff78; */
+    padding-top: 40px;
+}
+.sub:hover
+{
+    background-color:white;
+    /* color: rgb(12, 10, 10); */
+}
+.sub1,.sub2
+{
+    position: absolute;
+    top: 35%;
+    padding: 20px;
+    font-weight: bolder;
+    font-size:170%;
+    color: rgba(115, 107, 107, 0.77);
+    /* color: rgb(5, 4, 4); */
+    align-items: center;
+}
+.sub2
+{
+  right: 0.1%;
+}
+.dot
+{
+    text-align: center;
+}
+.circle
+{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    height: 10px;
+    width: 5xpx;
+    margin-top: 10px;
+    padding: 5px 7px;
+    /* margin-left: 10px; */
+    border-radius: 50%;
+    text-align: center;
+    /* background-color: #bbb; */
+    background-color: white;
+}
+.c1:hover
+{
+    background-color:  hsla(0, 0%, 55%, 0.762);
+}
+.image
+{
+    width: 43vw;
+    height: 40vh;
+    margin: auto;
+    margin-left:120px;
+    display: none;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}    
+.image img
+{
+    width:700px;
+    height: 290px;
+    margin: auto;
+}
+.chat
+{
+    width: 5vw;
+    height: 5vh;
+    /* background-color: aqua; */
+    position: fixed;
+    left: 94%;
+    
+}
+.chat button 
+{
+    width: 5vw;
+    height: 5vh;
+    text-align: center;
+    background-color: cadetblue;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: white;
+}
+.chat button:hover
+{
+    width: 5vw;
+    height: 5vh;
+    border-radius: 10px;
+    background-color: burlywood;
+    border: 2px solid black;
+
+}
+.card
+{
+    max-width: 90vw;
+    min-height: 50vh;
+    margin: auto;
+    margin-top: 5%;
+    /* background-color: #f8f8f2;; */
+    background-color: #c0acac40;
+}
+.carditem
+{
+    max-width: 15vw;
+    height:40vh;
+    margin: 0px 21px;
+    margin-top: 30px;
+    display: inline-flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.carditem img
+{
+    width: 15vw;
+    height: 40vh;
+}
+
+footer
+{
+    height: 8vh;
+    background-color: black;
+    color: rgb(246, 242, 242);
+    font-family: "Open Sans", sans-serif;
+    margin-top: 50px;
+}
